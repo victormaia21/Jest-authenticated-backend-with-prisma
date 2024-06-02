@@ -23,7 +23,7 @@ import { UserService } from './user.service';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { UserDTO, UserDTOLogin } from './interfaces/user.interface';
 import UserDtoInterface from './dto/user.class.dto';
-import { multerOptions } from 'src/multer-options/upload-file';
+import { multerOptions } from '../multer-options/upload-file';
 import { ResponseLogin } from './interfaces/user.response.interface';
 import { AuthGuard } from 'src/auth/auth.guard';
 
