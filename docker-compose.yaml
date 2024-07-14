@@ -12,7 +12,7 @@ services:
       POSTGRES_DB: ${DATABASE_NAME}
     container_name: postgres_database
     ports:
-      - "${DATABASE_PORT}:5432"
+      - "6000:${DATABASE_PORT}"
 
   nest-app:
     build:

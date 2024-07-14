@@ -22,7 +22,7 @@ Para começar com este projeto, siga estes passos:
 
 ## Documentação Swagger
 
-A documentação Swagger também está disponível publicamente na URL: [http://100.27.221.184:3000/api#/](http://100.27.221.184:3000/api#/)
+A documentação Swagger também está disponível publicamente na URL: [http://localhost:3000/api#/](http://localhost:3000/api)
 
 ## .env Example
 
